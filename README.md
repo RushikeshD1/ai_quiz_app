@@ -18,7 +18,7 @@ An interactive **AI-powered quiz funnel application** that collects user prefere
 ![Result Page](./screenshot/result.PNG)
 
 ### 🎯 Progress Bar
-![Result Page](./screenshot/progressBar.png)
+![Result Page](./screenshot/progressBar.PNG)
 
 ---
 
