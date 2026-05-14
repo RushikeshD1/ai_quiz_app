@@ -9,18 +9,16 @@ An interactive **AI-powered quiz funnel application** that collects user prefere
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshot/homepage.png)
 
 ### ❓ Quiz Flow
-![Quiz Page](./screenshots/quiz.png)
-
-### ⏳ Loading State (AI Processing)
-![Loader](./screenshots/loader.png)
+![Quiz Page](./screenshot/question.png)
 
 ### 🎯 Result Page (AI Output)
-![Result Page](./screenshots/result.png)
+![Result Page](./screenshot/result.png)
 
-> 💡 Add your images inside `/screenshots` folder in root directory.
+### 🎯 Progress Bar
+![Result Page](./screenshot/progressBar.png)
 
 ---
 
