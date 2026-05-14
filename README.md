@@ -56,25 +56,6 @@ An interactive **AI-powered quiz funnel application** that collects user prefere
 
 ---
 
-## 📂 Project Structure
-app/
-├── api/
-│ └── analysis/route.js # AI API endpoint
-├── quiz/ # Quiz flow pages
-├── result/ # Result page
-├── components/
-│ ├── Header.js
-│ ├── QuestionCard.js
-│ ├── ProgressBar.js
-│ ├── Loader.js
-├── lib/
-│ └── questions.js
-├── layout.js
-├── page.js
-
-
----
-
 ## ⚙️ How It Works
 
 1. User starts the quiz
