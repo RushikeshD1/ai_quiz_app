@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 AI Quiz Funnel (Next.js 14)
 
-## Getting Started
+An interactive **AI-powered quiz funnel application** that collects user preferences, analyzes them using LLMs via OpenRouter, and returns personalized recommendations with a modern SaaS-style UI.
 
-First, run the development server:
+👉 Live Demo: https://ninex-rushikeshdhale.vercel.app/
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./screenshots/home.png)
+
+### ❓ Quiz Flow
+![Quiz Page](./screenshots/quiz.png)
+
+### ⏳ Loading State (AI Processing)
+![Loader](./screenshots/loader.png)
+
+### 🎯 Result Page (AI Output)
+![Result Page](./screenshots/result.png)
+
+> 💡 Add your images inside `/screenshots` folder in root directory.
+
+---
+
+## ✨ Features
+
+- 🧠 AI-powered user analysis using OpenRouter LLMs
+- ❓ Dynamic quiz flow (adaptive questions)
+- 🎯 Personalized persona generation
+- 📊 Smart recommendations engine
+- ⏳ Beautiful loading state while AI processes response
+- ⚡ Smooth animations with Framer Motion
+- 📱 Fully responsive mobile-first design
+- 🌑 Modern dark UI with glowing effects
+- 💾 LocalStorage-based state persistence
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Framer Motion
+- React Hooks (useState, useEffect)
+
+### Backend / AI
+- OpenRouter API
+- GPT models (gpt-4o-mini / LLaMA variants)
+- Next.js API Routes (`/app/api/analysis`)
+
+### Tools
+- LocalStorage
+- Fetch API
+- Vercel Deployment
+
+---
+
+## 📂 Project Structure
+app/
+├── api/
+│ └── analysis/route.js # AI API endpoint
+├── quiz/ # Quiz flow pages
+├── result/ # Result page
+├── components/
+│ ├── Header.js
+│ ├── QuestionCard.js
+│ ├── ProgressBar.js
+│ ├── Loader.js
+├── lib/
+│ └── questions.js
+├── layout.js
+├── page.js
+
+
+---
+
+## ⚙️ How It Works
+
+1. User starts the quiz
+2. Questions are dynamically rendered
+3. Answers stored in localStorage
+4. Data sent to OpenRouter API
+5. AI returns structured JSON:
+   - Persona
+   - Recommendations
+   - Reason
+6. Loader is shown while waiting for AI response
+7. Result page displays personalized output
+
+---
+
+## 🔌 AI Integration
+
+OpenRouter API:
+https://openrouter.ai/api/v1/chat/completions
+
+Model used:
+openai/gpt-4o-mini
+
+---
+
+## 📦 Setup Instructions
 
 ```bash
+git clone https://github.com/your-username/quiz-funnel.git
+cd quiz-funnel
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
