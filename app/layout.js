@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased `}
       >
-        <div className="min-h-screen flex flex-col dark:bg-black p-6">
+        <div className="min-h-screen flex flex-col bg-black p-6">
           <Header />
 
           <main className="flex-1  text-white flex flex-col items-center justify-center overflow-hidden">
