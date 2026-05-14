@@ -9,13 +9,13 @@ An interactive **AI-powered quiz funnel application** that collects user prefere
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](./screenshot/homepage.png)
+![Home Page](./screenshot/homepage.PNG)
 
 ### ❓ Quiz Flow
-![Quiz Page](./screenshot/question.png)
+![Quiz Page](./screenshot/question.PNG)
 
 ### 🎯 Result Page (AI Output)
-![Result Page](./screenshot/result.png)
+![Result Page](./screenshot/result.PNG)
 
 ### 🎯 Progress Bar
 ![Result Page](./screenshot/progressBar.png)
