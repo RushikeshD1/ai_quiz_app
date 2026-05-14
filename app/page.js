@@ -14,7 +14,7 @@ export default function Home() {
           Discover Your Perfect{" "}
           <span className="text-blue-400">Google Tools</span>
         </h1>
-        <p className="text-gray-600 text-sm">
+        <p className="text-gray-600 text-sm text-center">
           Answer a few questions and get AI-powered recommendations tailored to
           you.
         </p>
